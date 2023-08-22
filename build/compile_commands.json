@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -o CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.o -c /Users/Lee/CSE168/src/3rdparty/miniz.c",
+  "file": "/Users/Lee/CSE168/src/3rdparty/miniz.c"
+},
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang++  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17 -o CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.o -c /Users/Lee/CSE168/src/3rdparty/pugixml.cpp",
+  "file": "/Users/Lee/CSE168/src/3rdparty/pugixml.cpp"
+},
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang++  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17 -o CMakeFiles/torrey_lib.dir/src/bvh.cpp.o -c /Users/Lee/CSE168/src/bvh.cpp",
+  "file": "/Users/Lee/CSE168/src/bvh.cpp"
+},
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang++  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17 -o CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.o -c /Users/Lee/CSE168/src/compute_normals.cpp",
+  "file": "/Users/Lee/CSE168/src/compute_normals.cpp"
+},
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang++  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17 -o CMakeFiles/torrey_lib.dir/src/hw1.cpp.o -c /Users/Lee/CSE168/src/hw1.cpp",
+  "file": "/Users/Lee/CSE168/src/hw1.cpp"
+},
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang++  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17 -o CMakeFiles/torrey_lib.dir/src/hw2.cpp.o -c /Users/Lee/CSE168/src/hw2.cpp",
+  "file": "/Users/Lee/CSE168/src/hw2.cpp"
+},
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang++  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17 -o CMakeFiles/torrey_lib.dir/src/hw3.cpp.o -c /Users/Lee/CSE168/src/hw3.cpp",
+  "file": "/Users/Lee/CSE168/src/hw3.cpp"
+},
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang++  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17 -o CMakeFiles/torrey_lib.dir/src/hw4.cpp.o -c /Users/Lee/CSE168/src/hw4.cpp",
+  "file": "/Users/Lee/CSE168/src/hw4.cpp"
+},
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang++  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17 -o CMakeFiles/torrey_lib.dir/src/image.cpp.o -c /Users/Lee/CSE168/src/image.cpp",
+  "file": "/Users/Lee/CSE168/src/image.cpp"
+},
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang++  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17 -o CMakeFiles/torrey_lib.dir/src/main.cpp.o -c /Users/Lee/CSE168/src/main.cpp",
+  "file": "/Users/Lee/CSE168/src/main.cpp"
+},
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang++  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17 -o CMakeFiles/torrey_lib.dir/src/parallel.cpp.o -c /Users/Lee/CSE168/src/parallel.cpp",
+  "file": "/Users/Lee/CSE168/src/parallel.cpp"
+},
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang++  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17 -o CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.o -c /Users/Lee/CSE168/src/parse_obj.cpp",
+  "file": "/Users/Lee/CSE168/src/parse_obj.cpp"
+},
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang++  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17 -o CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.o -c /Users/Lee/CSE168/src/parse_ply.cpp",
+  "file": "/Users/Lee/CSE168/src/parse_ply.cpp"
+},
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang++  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17 -o CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.o -c /Users/Lee/CSE168/src/parse_scene.cpp",
+  "file": "/Users/Lee/CSE168/src/parse_scene.cpp"
+},
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang++  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17 -o CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.o -c /Users/Lee/CSE168/src/parse_serialized.cpp",
+  "file": "/Users/Lee/CSE168/src/parse_serialized.cpp"
+},
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang++  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17 -o CMakeFiles/torrey_lib.dir/src/print_scene.cpp.o -c /Users/Lee/CSE168/src/print_scene.cpp",
+  "file": "/Users/Lee/CSE168/src/print_scene.cpp"
+},
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang++  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17 -o CMakeFiles/torrey_lib.dir/src/transform.cpp.o -c /Users/Lee/CSE168/src/transform.cpp",
+  "file": "/Users/Lee/CSE168/src/transform.cpp"
+},
+{
+  "directory": "/Users/Lee/CSE168/build",
+  "command": "/usr/bin/clang++  -I/Users/Lee/CSE168/src -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17 -o CMakeFiles/torrey.dir/src/main.cpp.o -c /Users/Lee/CSE168/src/main.cpp",
+  "file": "/Users/Lee/CSE168/src/main.cpp"
+}
+]
