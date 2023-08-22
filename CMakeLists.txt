@@ -43,6 +43,18 @@ set(SRCS src/3rdparty/miniz.h
          src/torrey.h
          src/transform.h
          src/vector.h
+         src/ray.h
+   src/frame.h
+   src/shape.h
+	 src/pcg.h
+	 src/scene.h
+	 src/aabb.h
+	 src/bvh.h
+	 src/bvh.cpp
+   src/texture.h
+   src/material.h
+   src/sample.h
+   src/radiance.h
          src/compute_normals.cpp
          src/hw1.cpp
          src/hw2.cpp

@@ -12,6 +12,7 @@ struct Camera {
     Vector3 lookat;
     Vector3 up;
     Real vfov;
+    //Real aperture;
 };
 
 struct Sphere {
@@ -114,7 +115,7 @@ Scene hw1_scene_3{
         45                 // vfov
     },
     std::vector<Sphere>{
-        {Vector3{   0.0,  0.0, 0.0}, Real(100)  , 0},
+        {Vector3{   0.0,  0.0, 0.0}, Real(100)  , 1},
         {Vector3{ -0.35, 0.35,-3.5}, Real(0.25) , 1},
         {Vector3{  0.35, 0.35,-2.5}, Real(0.35) , 2},
         {Vector3{  0.35,-0.35,-2.0}, Real(0.3)  , 3},
@@ -216,10 +217,77 @@ Scene hw1_scene_4{
         {Vector3{10, 10, 10}, Vector3{0, 0, 0}},
         {Vector3{50, 5, 5}, Vector3{5, 5, -5}},
     }
+
 };
 
-Scene hw1_scenes[] = {
-    hw1_scene_0, hw1_scene_1, hw1_scene_2, hw1_scene_3, hw1_scene_4
+Scene hw1_scene_5{
+    Camera{
+        Vector3{10, 2,  3}, // lookfrom
+        Vector3{0, 0, 0}, // lookat
+        Vector3{0, 1,  0}, // up
+        45                 // vfov
+    },
+
+    std::vector<Sphere>{
+        {Vector3{ 0.0, -5000.0, 0.0}, 5000.0, 0},
+        {Vector3{ 5.0,  1.0, 0.0}, 1.0, 1},
+        {Vector3{ -1.0,  1.0, 2.5}, 1.0, 2},
+
+    },
+    std::vector<Material>{
+        {MaterialType::Diffuse, Vector3{0.55, 0.71, 0.96}},
+        {MaterialType::Mirror , Vector3{1.0, 1.0, 1.0}},
+        {MaterialType::Mirror , Vector3{0.31, 0.86, 0.39}},
+
+        {MaterialType::Diffuse, Vector3{0.99, 0.92, 0.25}},
+        {MaterialType::Diffuse, Vector3{0.67, 0.86, 1.0}},
+        {MaterialType::Diffuse, Vector3{0.92, 0.33, 0.33}},
+        {MaterialType::Diffuse, Vector3{0.81, 0.62, 0.99}},
+        {MaterialType::Diffuse, Vector3{0.56, 0.97, 0.93}},
+        {MaterialType::Diffuse, Vector3{0.96, 0.25, 0.42}},
+        {MaterialType::Diffuse, Vector3{0.16, 0.78, 0.44}},
+        {MaterialType::Diffuse, Vector3{0.62, 0.27, 0.83}},
+        {MaterialType::Diffuse, Vector3{0.98, 0.47, 0.58}},
+        {MaterialType::Diffuse, Vector3{0.96, 0.33, 0.33}},
+        {MaterialType::Diffuse, Vector3{0.97, 0.38, 0.63}},
+        {MaterialType::Diffuse, Vector3{0.26, 0.80, 1.0}},
+        {MaterialType::Diffuse, Vector3{0.45, 0.43, 1.0}},
+        {MaterialType::Diffuse, Vector3{0.98, 0.84, 0.63}},
+        {MaterialType::Diffuse, Vector3{0.21, 0.47, 1.0}},
+
+        {MaterialType::Mirror, Vector3{0.99, 0.92, 0.44}},
+        {MaterialType::Mirror, Vector3{0.67, 0.86, 1.0}},
+        {MaterialType::Mirror, Vector3{0.92, 0.33, 0.33}},
+        {MaterialType::Mirror, Vector3{0.81, 0.62, 0.99}},
+        {MaterialType::Mirror, Vector3{0.56, 0.97, 0.93}},
+        {MaterialType::Mirror, Vector3{0.96, 0.25, 0.42}},
+        {MaterialType::Mirror, Vector3{0.16, 0.78, 0.44}},
+        {MaterialType::Mirror, Vector3{0.62, 0.27, 0.83}},
+        {MaterialType::Mirror, Vector3{0.98, 0.47, 0.58}},
+        {MaterialType::Mirror, Vector3{0.96, 0.33, 0.33}},
+        {MaterialType::Mirror, Vector3{0.97, 0.38, 0.63}},
+        {MaterialType::Mirror, Vector3{0.26, 0.80, 1.0}},
+        {MaterialType::Mirror, Vector3{0.45, 0.43, 1.0}},
+        {MaterialType::Mirror, Vector3{0.98, 0.84, 0.63}},
+        {MaterialType::Mirror, Vector3{0.21, 0.47, 1.0}},
+
+
+    },
+    std::vector<PointLight>{
+        {Vector3{100, 100, 100}, Vector3{ 5, 10,  2}},
+        {Vector3{100, 100, 100}, Vector3{-5, 10,  1}},
+        {Vector3{100, 100, 100}, Vector3{ 0, 10, -5}},
+        {Vector3{100, 100, 100}, Vector3{ -10, 10, 5}},
+        {Vector3{100, 100, 100}, Vector3{ 10, 10, 5}},
+    }
+
 };
+
+
+Scene hw1_scenes[] = {
+    hw1_scene_0, hw1_scene_1, hw1_scene_2, hw1_scene_3, hw1_scene_4, hw1_scene_5
+};
+
+
 
 }

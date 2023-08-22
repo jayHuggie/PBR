@@ -305,3 +305,7 @@ template <typename T>
 inline std::ostream& operator<<(std::ostream &os, const TVector3<T> &v) {
     return os << "(" << v[0] << ", " << v[1] << ", " << v[2] << ")";
 }
+
+// Type aliases for vec3
+using point3 = Vector3;   // 3D point
+using color = Vector3;    // RGB color

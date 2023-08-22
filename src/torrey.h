@@ -80,3 +80,7 @@ inline Real radians(const Real deg) {
 inline Real degrees(const Real rad) {
     return (Real(180) / c_PI) * rad;
 }
+
+inline Real square(const Real s) {
+    return s * s;
+}

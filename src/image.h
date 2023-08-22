@@ -6,6 +6,8 @@
 #include <cstring>
 #include <vector>
 
+namespace fs = std::filesystem;
+
 /// A N-channel image stored in a contiguous vector
 /// The storage format is HWC -- outer dimension is height
 /// then width, then channels.

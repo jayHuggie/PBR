@@ -2,6 +2,7 @@
 
 #include "torrey.h"
 #include "vector.h"
+#include "matrix.h"
 
 #include <filesystem>
 #include <variant>
@@ -91,7 +92,12 @@ struct ParsedTriangleMesh : public ParsedShapeBase {
     std::vector<Vector2> uvs;
 };
 
-using ParsedShape = std::variant<ParsedSphere, ParsedTriangleMesh>;
+struct ParsedObj : public ParsedShapeBase {
+    fs::path filename;
+    Matrix4x4 to_world;
+};
+
+using ParsedShape = std::variant<ParsedSphere, ParsedTriangleMesh, ParsedObj>;
 
 inline void set_material_id(ParsedShape &shape, int material_id) {
     std::visit([&](auto &s) { s.material_id = material_id; }, shape);
