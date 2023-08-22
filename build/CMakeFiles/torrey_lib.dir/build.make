@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.24.0/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Lee/UCSD_CSE168
+CMAKE_SOURCE_DIR = /Users/Lee/PBR
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Lee/UCSD_CSE168/build
+CMAKE_BINARY_DIR = /Users/Lee/PBR/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/torrey_lib.dir/depend.make
@@ -70,242 +70,242 @@ include CMakeFiles/torrey_lib.dir/progress.make
 include CMakeFiles/torrey_lib.dir/flags.make
 
 CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.o: CMakeFiles/torrey_lib.dir/flags.make
-CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.o: /Users/Lee/UCSD_CSE168/src/3rdparty/miniz.c
+CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.o: /Users/Lee/PBR/src/3rdparty/miniz.c
 CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.o: CMakeFiles/torrey_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.o -MF CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.o.d -o CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.o -c /Users/Lee/UCSD_CSE168/src/3rdparty/miniz.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.o -MF CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.o.d -o CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.o -c /Users/Lee/PBR/src/3rdparty/miniz.c
 
 CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Lee/UCSD_CSE168/src/3rdparty/miniz.c > CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Lee/PBR/src/3rdparty/miniz.c > CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.i
 
 CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Lee/UCSD_CSE168/src/3rdparty/miniz.c -o CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Lee/PBR/src/3rdparty/miniz.c -o CMakeFiles/torrey_lib.dir/src/3rdparty/miniz.c.s
 
 CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.o: CMakeFiles/torrey_lib.dir/flags.make
-CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.o: /Users/Lee/UCSD_CSE168/src/3rdparty/pugixml.cpp
+CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.o: /Users/Lee/PBR/src/3rdparty/pugixml.cpp
 CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.o: CMakeFiles/torrey_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.o -MF CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.o -c /Users/Lee/UCSD_CSE168/src/3rdparty/pugixml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.o -MF CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.o -c /Users/Lee/PBR/src/3rdparty/pugixml.cpp
 
 CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/UCSD_CSE168/src/3rdparty/pugixml.cpp > CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/PBR/src/3rdparty/pugixml.cpp > CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.i
 
 CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/UCSD_CSE168/src/3rdparty/pugixml.cpp -o CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/PBR/src/3rdparty/pugixml.cpp -o CMakeFiles/torrey_lib.dir/src/3rdparty/pugixml.cpp.s
 
 CMakeFiles/torrey_lib.dir/src/bvh.cpp.o: CMakeFiles/torrey_lib.dir/flags.make
-CMakeFiles/torrey_lib.dir/src/bvh.cpp.o: /Users/Lee/UCSD_CSE168/src/bvh.cpp
+CMakeFiles/torrey_lib.dir/src/bvh.cpp.o: /Users/Lee/PBR/src/bvh.cpp
 CMakeFiles/torrey_lib.dir/src/bvh.cpp.o: CMakeFiles/torrey_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/torrey_lib.dir/src/bvh.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/bvh.cpp.o -MF CMakeFiles/torrey_lib.dir/src/bvh.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/bvh.cpp.o -c /Users/Lee/UCSD_CSE168/src/bvh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/torrey_lib.dir/src/bvh.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/bvh.cpp.o -MF CMakeFiles/torrey_lib.dir/src/bvh.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/bvh.cpp.o -c /Users/Lee/PBR/src/bvh.cpp
 
 CMakeFiles/torrey_lib.dir/src/bvh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torrey_lib.dir/src/bvh.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/UCSD_CSE168/src/bvh.cpp > CMakeFiles/torrey_lib.dir/src/bvh.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/PBR/src/bvh.cpp > CMakeFiles/torrey_lib.dir/src/bvh.cpp.i
 
 CMakeFiles/torrey_lib.dir/src/bvh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torrey_lib.dir/src/bvh.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/UCSD_CSE168/src/bvh.cpp -o CMakeFiles/torrey_lib.dir/src/bvh.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/PBR/src/bvh.cpp -o CMakeFiles/torrey_lib.dir/src/bvh.cpp.s
 
 CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.o: CMakeFiles/torrey_lib.dir/flags.make
-CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.o: /Users/Lee/UCSD_CSE168/src/compute_normals.cpp
+CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.o: /Users/Lee/PBR/src/compute_normals.cpp
 CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.o: CMakeFiles/torrey_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.o -MF CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.o -c /Users/Lee/UCSD_CSE168/src/compute_normals.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.o -MF CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.o -c /Users/Lee/PBR/src/compute_normals.cpp
 
 CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/UCSD_CSE168/src/compute_normals.cpp > CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/PBR/src/compute_normals.cpp > CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.i
 
 CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/UCSD_CSE168/src/compute_normals.cpp -o CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/PBR/src/compute_normals.cpp -o CMakeFiles/torrey_lib.dir/src/compute_normals.cpp.s
 
 CMakeFiles/torrey_lib.dir/src/hw1.cpp.o: CMakeFiles/torrey_lib.dir/flags.make
-CMakeFiles/torrey_lib.dir/src/hw1.cpp.o: /Users/Lee/UCSD_CSE168/src/hw1.cpp
+CMakeFiles/torrey_lib.dir/src/hw1.cpp.o: /Users/Lee/PBR/src/hw1.cpp
 CMakeFiles/torrey_lib.dir/src/hw1.cpp.o: CMakeFiles/torrey_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/torrey_lib.dir/src/hw1.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/hw1.cpp.o -MF CMakeFiles/torrey_lib.dir/src/hw1.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/hw1.cpp.o -c /Users/Lee/UCSD_CSE168/src/hw1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/torrey_lib.dir/src/hw1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/hw1.cpp.o -MF CMakeFiles/torrey_lib.dir/src/hw1.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/hw1.cpp.o -c /Users/Lee/PBR/src/hw1.cpp
 
 CMakeFiles/torrey_lib.dir/src/hw1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torrey_lib.dir/src/hw1.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/UCSD_CSE168/src/hw1.cpp > CMakeFiles/torrey_lib.dir/src/hw1.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/PBR/src/hw1.cpp > CMakeFiles/torrey_lib.dir/src/hw1.cpp.i
 
 CMakeFiles/torrey_lib.dir/src/hw1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torrey_lib.dir/src/hw1.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/UCSD_CSE168/src/hw1.cpp -o CMakeFiles/torrey_lib.dir/src/hw1.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/PBR/src/hw1.cpp -o CMakeFiles/torrey_lib.dir/src/hw1.cpp.s
 
 CMakeFiles/torrey_lib.dir/src/hw2.cpp.o: CMakeFiles/torrey_lib.dir/flags.make
-CMakeFiles/torrey_lib.dir/src/hw2.cpp.o: /Users/Lee/UCSD_CSE168/src/hw2.cpp
+CMakeFiles/torrey_lib.dir/src/hw2.cpp.o: /Users/Lee/PBR/src/hw2.cpp
 CMakeFiles/torrey_lib.dir/src/hw2.cpp.o: CMakeFiles/torrey_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/torrey_lib.dir/src/hw2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/hw2.cpp.o -MF CMakeFiles/torrey_lib.dir/src/hw2.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/hw2.cpp.o -c /Users/Lee/UCSD_CSE168/src/hw2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/torrey_lib.dir/src/hw2.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/hw2.cpp.o -MF CMakeFiles/torrey_lib.dir/src/hw2.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/hw2.cpp.o -c /Users/Lee/PBR/src/hw2.cpp
 
 CMakeFiles/torrey_lib.dir/src/hw2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torrey_lib.dir/src/hw2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/UCSD_CSE168/src/hw2.cpp > CMakeFiles/torrey_lib.dir/src/hw2.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/PBR/src/hw2.cpp > CMakeFiles/torrey_lib.dir/src/hw2.cpp.i
 
 CMakeFiles/torrey_lib.dir/src/hw2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torrey_lib.dir/src/hw2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/UCSD_CSE168/src/hw2.cpp -o CMakeFiles/torrey_lib.dir/src/hw2.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/PBR/src/hw2.cpp -o CMakeFiles/torrey_lib.dir/src/hw2.cpp.s
 
 CMakeFiles/torrey_lib.dir/src/hw3.cpp.o: CMakeFiles/torrey_lib.dir/flags.make
-CMakeFiles/torrey_lib.dir/src/hw3.cpp.o: /Users/Lee/UCSD_CSE168/src/hw3.cpp
+CMakeFiles/torrey_lib.dir/src/hw3.cpp.o: /Users/Lee/PBR/src/hw3.cpp
 CMakeFiles/torrey_lib.dir/src/hw3.cpp.o: CMakeFiles/torrey_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/torrey_lib.dir/src/hw3.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/hw3.cpp.o -MF CMakeFiles/torrey_lib.dir/src/hw3.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/hw3.cpp.o -c /Users/Lee/UCSD_CSE168/src/hw3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/torrey_lib.dir/src/hw3.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/hw3.cpp.o -MF CMakeFiles/torrey_lib.dir/src/hw3.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/hw3.cpp.o -c /Users/Lee/PBR/src/hw3.cpp
 
 CMakeFiles/torrey_lib.dir/src/hw3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torrey_lib.dir/src/hw3.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/UCSD_CSE168/src/hw3.cpp > CMakeFiles/torrey_lib.dir/src/hw3.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/PBR/src/hw3.cpp > CMakeFiles/torrey_lib.dir/src/hw3.cpp.i
 
 CMakeFiles/torrey_lib.dir/src/hw3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torrey_lib.dir/src/hw3.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/UCSD_CSE168/src/hw3.cpp -o CMakeFiles/torrey_lib.dir/src/hw3.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/PBR/src/hw3.cpp -o CMakeFiles/torrey_lib.dir/src/hw3.cpp.s
 
 CMakeFiles/torrey_lib.dir/src/hw4.cpp.o: CMakeFiles/torrey_lib.dir/flags.make
-CMakeFiles/torrey_lib.dir/src/hw4.cpp.o: /Users/Lee/UCSD_CSE168/src/hw4.cpp
+CMakeFiles/torrey_lib.dir/src/hw4.cpp.o: /Users/Lee/PBR/src/hw4.cpp
 CMakeFiles/torrey_lib.dir/src/hw4.cpp.o: CMakeFiles/torrey_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/torrey_lib.dir/src/hw4.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/hw4.cpp.o -MF CMakeFiles/torrey_lib.dir/src/hw4.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/hw4.cpp.o -c /Users/Lee/UCSD_CSE168/src/hw4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/torrey_lib.dir/src/hw4.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/hw4.cpp.o -MF CMakeFiles/torrey_lib.dir/src/hw4.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/hw4.cpp.o -c /Users/Lee/PBR/src/hw4.cpp
 
 CMakeFiles/torrey_lib.dir/src/hw4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torrey_lib.dir/src/hw4.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/UCSD_CSE168/src/hw4.cpp > CMakeFiles/torrey_lib.dir/src/hw4.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/PBR/src/hw4.cpp > CMakeFiles/torrey_lib.dir/src/hw4.cpp.i
 
 CMakeFiles/torrey_lib.dir/src/hw4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torrey_lib.dir/src/hw4.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/UCSD_CSE168/src/hw4.cpp -o CMakeFiles/torrey_lib.dir/src/hw4.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/PBR/src/hw4.cpp -o CMakeFiles/torrey_lib.dir/src/hw4.cpp.s
 
 CMakeFiles/torrey_lib.dir/src/image.cpp.o: CMakeFiles/torrey_lib.dir/flags.make
-CMakeFiles/torrey_lib.dir/src/image.cpp.o: /Users/Lee/UCSD_CSE168/src/image.cpp
+CMakeFiles/torrey_lib.dir/src/image.cpp.o: /Users/Lee/PBR/src/image.cpp
 CMakeFiles/torrey_lib.dir/src/image.cpp.o: CMakeFiles/torrey_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/torrey_lib.dir/src/image.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/image.cpp.o -MF CMakeFiles/torrey_lib.dir/src/image.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/image.cpp.o -c /Users/Lee/UCSD_CSE168/src/image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/torrey_lib.dir/src/image.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/image.cpp.o -MF CMakeFiles/torrey_lib.dir/src/image.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/image.cpp.o -c /Users/Lee/PBR/src/image.cpp
 
 CMakeFiles/torrey_lib.dir/src/image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torrey_lib.dir/src/image.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/UCSD_CSE168/src/image.cpp > CMakeFiles/torrey_lib.dir/src/image.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/PBR/src/image.cpp > CMakeFiles/torrey_lib.dir/src/image.cpp.i
 
 CMakeFiles/torrey_lib.dir/src/image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torrey_lib.dir/src/image.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/UCSD_CSE168/src/image.cpp -o CMakeFiles/torrey_lib.dir/src/image.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/PBR/src/image.cpp -o CMakeFiles/torrey_lib.dir/src/image.cpp.s
 
 CMakeFiles/torrey_lib.dir/src/main.cpp.o: CMakeFiles/torrey_lib.dir/flags.make
-CMakeFiles/torrey_lib.dir/src/main.cpp.o: /Users/Lee/UCSD_CSE168/src/main.cpp
+CMakeFiles/torrey_lib.dir/src/main.cpp.o: /Users/Lee/PBR/src/main.cpp
 CMakeFiles/torrey_lib.dir/src/main.cpp.o: CMakeFiles/torrey_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/torrey_lib.dir/src/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/main.cpp.o -MF CMakeFiles/torrey_lib.dir/src/main.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/main.cpp.o -c /Users/Lee/UCSD_CSE168/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/torrey_lib.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/main.cpp.o -MF CMakeFiles/torrey_lib.dir/src/main.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/main.cpp.o -c /Users/Lee/PBR/src/main.cpp
 
 CMakeFiles/torrey_lib.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torrey_lib.dir/src/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/UCSD_CSE168/src/main.cpp > CMakeFiles/torrey_lib.dir/src/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/PBR/src/main.cpp > CMakeFiles/torrey_lib.dir/src/main.cpp.i
 
 CMakeFiles/torrey_lib.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torrey_lib.dir/src/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/UCSD_CSE168/src/main.cpp -o CMakeFiles/torrey_lib.dir/src/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/PBR/src/main.cpp -o CMakeFiles/torrey_lib.dir/src/main.cpp.s
 
 CMakeFiles/torrey_lib.dir/src/parallel.cpp.o: CMakeFiles/torrey_lib.dir/flags.make
-CMakeFiles/torrey_lib.dir/src/parallel.cpp.o: /Users/Lee/UCSD_CSE168/src/parallel.cpp
+CMakeFiles/torrey_lib.dir/src/parallel.cpp.o: /Users/Lee/PBR/src/parallel.cpp
 CMakeFiles/torrey_lib.dir/src/parallel.cpp.o: CMakeFiles/torrey_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/torrey_lib.dir/src/parallel.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/parallel.cpp.o -MF CMakeFiles/torrey_lib.dir/src/parallel.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/parallel.cpp.o -c /Users/Lee/UCSD_CSE168/src/parallel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/torrey_lib.dir/src/parallel.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/parallel.cpp.o -MF CMakeFiles/torrey_lib.dir/src/parallel.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/parallel.cpp.o -c /Users/Lee/PBR/src/parallel.cpp
 
 CMakeFiles/torrey_lib.dir/src/parallel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torrey_lib.dir/src/parallel.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/UCSD_CSE168/src/parallel.cpp > CMakeFiles/torrey_lib.dir/src/parallel.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/PBR/src/parallel.cpp > CMakeFiles/torrey_lib.dir/src/parallel.cpp.i
 
 CMakeFiles/torrey_lib.dir/src/parallel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torrey_lib.dir/src/parallel.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/UCSD_CSE168/src/parallel.cpp -o CMakeFiles/torrey_lib.dir/src/parallel.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/PBR/src/parallel.cpp -o CMakeFiles/torrey_lib.dir/src/parallel.cpp.s
 
 CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.o: CMakeFiles/torrey_lib.dir/flags.make
-CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.o: /Users/Lee/UCSD_CSE168/src/parse_obj.cpp
+CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.o: /Users/Lee/PBR/src/parse_obj.cpp
 CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.o: CMakeFiles/torrey_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.o -MF CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.o -c /Users/Lee/UCSD_CSE168/src/parse_obj.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.o -MF CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.o -c /Users/Lee/PBR/src/parse_obj.cpp
 
 CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/UCSD_CSE168/src/parse_obj.cpp > CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/PBR/src/parse_obj.cpp > CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.i
 
 CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/UCSD_CSE168/src/parse_obj.cpp -o CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/PBR/src/parse_obj.cpp -o CMakeFiles/torrey_lib.dir/src/parse_obj.cpp.s
 
 CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.o: CMakeFiles/torrey_lib.dir/flags.make
-CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.o: /Users/Lee/UCSD_CSE168/src/parse_ply.cpp
+CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.o: /Users/Lee/PBR/src/parse_ply.cpp
 CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.o: CMakeFiles/torrey_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.o -MF CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.o -c /Users/Lee/UCSD_CSE168/src/parse_ply.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.o -MF CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.o -c /Users/Lee/PBR/src/parse_ply.cpp
 
 CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/UCSD_CSE168/src/parse_ply.cpp > CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/PBR/src/parse_ply.cpp > CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.i
 
 CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/UCSD_CSE168/src/parse_ply.cpp -o CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/PBR/src/parse_ply.cpp -o CMakeFiles/torrey_lib.dir/src/parse_ply.cpp.s
 
 CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.o: CMakeFiles/torrey_lib.dir/flags.make
-CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.o: /Users/Lee/UCSD_CSE168/src/parse_scene.cpp
+CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.o: /Users/Lee/PBR/src/parse_scene.cpp
 CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.o: CMakeFiles/torrey_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.o -MF CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.o -c /Users/Lee/UCSD_CSE168/src/parse_scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.o -MF CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.o -c /Users/Lee/PBR/src/parse_scene.cpp
 
 CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/UCSD_CSE168/src/parse_scene.cpp > CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/PBR/src/parse_scene.cpp > CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.i
 
 CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/UCSD_CSE168/src/parse_scene.cpp -o CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/PBR/src/parse_scene.cpp -o CMakeFiles/torrey_lib.dir/src/parse_scene.cpp.s
 
 CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.o: CMakeFiles/torrey_lib.dir/flags.make
-CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.o: /Users/Lee/UCSD_CSE168/src/parse_serialized.cpp
+CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.o: /Users/Lee/PBR/src/parse_serialized.cpp
 CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.o: CMakeFiles/torrey_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.o -MF CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.o -c /Users/Lee/UCSD_CSE168/src/parse_serialized.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.o -MF CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.o -c /Users/Lee/PBR/src/parse_serialized.cpp
 
 CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/UCSD_CSE168/src/parse_serialized.cpp > CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/PBR/src/parse_serialized.cpp > CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.i
 
 CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/UCSD_CSE168/src/parse_serialized.cpp -o CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/PBR/src/parse_serialized.cpp -o CMakeFiles/torrey_lib.dir/src/parse_serialized.cpp.s
 
 CMakeFiles/torrey_lib.dir/src/print_scene.cpp.o: CMakeFiles/torrey_lib.dir/flags.make
-CMakeFiles/torrey_lib.dir/src/print_scene.cpp.o: /Users/Lee/UCSD_CSE168/src/print_scene.cpp
+CMakeFiles/torrey_lib.dir/src/print_scene.cpp.o: /Users/Lee/PBR/src/print_scene.cpp
 CMakeFiles/torrey_lib.dir/src/print_scene.cpp.o: CMakeFiles/torrey_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/torrey_lib.dir/src/print_scene.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/print_scene.cpp.o -MF CMakeFiles/torrey_lib.dir/src/print_scene.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/print_scene.cpp.o -c /Users/Lee/UCSD_CSE168/src/print_scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/torrey_lib.dir/src/print_scene.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/print_scene.cpp.o -MF CMakeFiles/torrey_lib.dir/src/print_scene.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/print_scene.cpp.o -c /Users/Lee/PBR/src/print_scene.cpp
 
 CMakeFiles/torrey_lib.dir/src/print_scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torrey_lib.dir/src/print_scene.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/UCSD_CSE168/src/print_scene.cpp > CMakeFiles/torrey_lib.dir/src/print_scene.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/PBR/src/print_scene.cpp > CMakeFiles/torrey_lib.dir/src/print_scene.cpp.i
 
 CMakeFiles/torrey_lib.dir/src/print_scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torrey_lib.dir/src/print_scene.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/UCSD_CSE168/src/print_scene.cpp -o CMakeFiles/torrey_lib.dir/src/print_scene.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/PBR/src/print_scene.cpp -o CMakeFiles/torrey_lib.dir/src/print_scene.cpp.s
 
 CMakeFiles/torrey_lib.dir/src/transform.cpp.o: CMakeFiles/torrey_lib.dir/flags.make
-CMakeFiles/torrey_lib.dir/src/transform.cpp.o: /Users/Lee/UCSD_CSE168/src/transform.cpp
+CMakeFiles/torrey_lib.dir/src/transform.cpp.o: /Users/Lee/PBR/src/transform.cpp
 CMakeFiles/torrey_lib.dir/src/transform.cpp.o: CMakeFiles/torrey_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/torrey_lib.dir/src/transform.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/transform.cpp.o -MF CMakeFiles/torrey_lib.dir/src/transform.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/transform.cpp.o -c /Users/Lee/UCSD_CSE168/src/transform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/torrey_lib.dir/src/transform.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torrey_lib.dir/src/transform.cpp.o -MF CMakeFiles/torrey_lib.dir/src/transform.cpp.o.d -o CMakeFiles/torrey_lib.dir/src/transform.cpp.o -c /Users/Lee/PBR/src/transform.cpp
 
 CMakeFiles/torrey_lib.dir/src/transform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torrey_lib.dir/src/transform.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/UCSD_CSE168/src/transform.cpp > CMakeFiles/torrey_lib.dir/src/transform.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Lee/PBR/src/transform.cpp > CMakeFiles/torrey_lib.dir/src/transform.cpp.i
 
 CMakeFiles/torrey_lib.dir/src/transform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torrey_lib.dir/src/transform.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/UCSD_CSE168/src/transform.cpp -o CMakeFiles/torrey_lib.dir/src/transform.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Lee/PBR/src/transform.cpp -o CMakeFiles/torrey_lib.dir/src/transform.cpp.s
 
 # Object files for target torrey_lib
 torrey_lib_OBJECTS = \
@@ -349,7 +349,7 @@ libtorrey_lib.a: CMakeFiles/torrey_lib.dir/src/print_scene.cpp.o
 libtorrey_lib.a: CMakeFiles/torrey_lib.dir/src/transform.cpp.o
 libtorrey_lib.a: CMakeFiles/torrey_lib.dir/build.make
 libtorrey_lib.a: CMakeFiles/torrey_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Lee/UCSD_CSE168/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX static library libtorrey_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Lee/PBR/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX static library libtorrey_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/torrey_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/torrey_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -362,6 +362,6 @@ CMakeFiles/torrey_lib.dir/clean:
 .PHONY : CMakeFiles/torrey_lib.dir/clean
 
 CMakeFiles/torrey_lib.dir/depend:
-	cd /Users/Lee/UCSD_CSE168/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Lee/UCSD_CSE168 /Users/Lee/UCSD_CSE168 /Users/Lee/UCSD_CSE168/build /Users/Lee/UCSD_CSE168/build /Users/Lee/UCSD_CSE168/build/CMakeFiles/torrey_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Lee/PBR/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Lee/PBR /Users/Lee/PBR /Users/Lee/PBR/build /Users/Lee/PBR/build /Users/Lee/PBR/build/CMakeFiles/torrey_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/torrey_lib.dir/depend
 

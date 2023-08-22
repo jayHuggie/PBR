@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/Lee/UCSD_CSE168/src
+CXX_INCLUDES = -I/Users/Lee/PBR/src
 
 CXX_FLAGSarm64 = -O2 -g -DNDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -Wall -std=gnu++17
 
