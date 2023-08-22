@@ -11,12 +11,12 @@
 		</transform>
 
 		<sampler type="independent">
-			<integer name="sampleCount" value="512"/>
+			<integer name="sampleCount" value="1000"/>
 		</sampler>
 
 		<film type="hdrfilm">
-			<integer name="height" value="480"/>
-			<integer name="width" value="640"/>
+			<integer name="height" value="960"/>
+			<integer name="width" value="1280"/>
 		</film>
 	</sensor>
 
