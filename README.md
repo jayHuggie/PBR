@@ -45,7 +45,7 @@ After compiling, use the command:
 ./torrey -hw 4_3 ../scenes/veach_mi/mi.xml
 ```
 
-* Regarding the '-hw' argument: It accepts values from 1_1 to 4_3, representing different functions detailed in the assignment documents. For the most comprehensive experience, use '-hw 4_3'.  <br />
+* **Regarding the '-hw' argument:** It accepts values from 1_1 to 4_3, representing different functions detailed in the assignment documents. For the most comprehensive experience, use '-hw 4_3'.  <br />
 * '../scenes/veach_mi/mi.xml' after -hw 4_3 is just an example. Additional scenes can also be rendered. The xml file can be located in various folders within the ‘scenes’ folder like:
 ```
 ./torrey ..scenes/cbox/cbox.xml
