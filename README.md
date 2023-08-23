@@ -63,9 +63,11 @@ After compiling, use the command:
 ### Phong Spheres in Cornell Box
 <img src="/sample_scenes/phong_sphere.jpeg" alt="phong_spheres" title="phong_spheres" width="400"/>
 
+### Textured Teapot with Blinn Phong Surface
+<img src="/sample_scenes/teapot_textured_blinn_microfacet.png" alt="teapot" title="teapot" width="400"/>
+
+
 ### Sponza
 <img src="/sample_scenes/sponza.png" alt="sponza" title="sponza" width="400"/>
 
-### Phong Spheres in Cornell Box
-<img src="/sample_scenes/phong_sphere.jpeg" alt="phong_spheres" title="phong_spheres" width="400"/>
 
