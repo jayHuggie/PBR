@@ -2,7 +2,7 @@
 
 For the course project for ‘UCSD CSE 168 Computer Graphics II: Rendering’, we constructed a physically-based renderer.
 
-<img src="/handouts/imgs/hw_4_3f.png" alt="dining-room" title="dining-room" width="500"/>
+<img src="/sample_scenes/dining-room.jpeg" alt="dining-room" title="dining-room" width="500"/>
 
 Detailed feature overviews and conceptual breakdowns can be found in our assignment specification:   <br />
 * [Homework 1: Ray Tracing](https://cseweb.ucsd.edu/~tzli/cse168/sp2023/homework1.pdf)
