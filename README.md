@@ -54,7 +54,7 @@ After compiling, use the command:
 
 # More sample images!
 
-### MIS Test Scene by Eric Veach
+### Multiple Importance Sampling Test by Eric Veach
 <img src="/sample_scenes/MIS_test.jpeg" alt="MIS_test" title="MIS_test" width="400"/>
 
 ### Head
