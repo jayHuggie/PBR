@@ -52,5 +52,16 @@ After compiling, use the command:
 ```
 * The resolution and sample size can be adjusted by changing the values of the xml files.
 
+# More sample images!
+
+### MIS Test Scene by Eric Veach
+<img src="/sample_scenes/MIS_test.jpeg" alt="MIS_test" title="MIS_test" width="400"/>
+
+### Head
+<img src="/sample_scenes/head.jpeg" alt="head" title="head" width="400"/>
+
+### Phong Spheres in Cornell Box
+<img src="/sample_scenes/phong_spheres.jpeg" alt="phong_spheres" title="phong_spheres" width="400"/>
+
 
 
