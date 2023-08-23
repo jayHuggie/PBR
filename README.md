@@ -61,7 +61,11 @@ After compiling, use the command:
 <img src="/sample_scenes/head.jpeg" alt="head" title="head" width="400"/>
 
 ### Phong Spheres in Cornell Box
-<img src="/sample_scenes/phong_spheres.jpeg" alt="phong_spheres" title="phong_spheres" width="400"/>
+<img src="/sample_scenes/phong_sphere.jpeg" alt="phong_spheres" title="phong_spheres" width="400"/>
 
+### Sponza
+<img src="/sample_scenes/sponza.png" alt="sponza" title="sponza" width="400"/>
 
+### Phong Spheres in Cornell Box
+<img src="/sample_scenes/phong_sphere.jpeg" alt="phong_spheres" title="phong_spheres" width="400"/>
 
