@@ -48,7 +48,7 @@ After compiling, use the command:
 * **Regarding the '-hw' argument:** It accepts values from 1_1 to 4_3, representing different functions detailed in the assignment documents. For the most comprehensive experience, use '**-hw 4_3**'.  <br />
 * "../scenes/veach_mi/mi.xml" after -hw 4_3 is just an example. Additional scenes can also be rendered. The xml file can be located in various folders within the ‘scenes’ folder like:
 ```
-./torrey -hw 4_3 ..scenes/cbox/cbox.xml
+./torrey -hw 4_3 ../scenes/cbox/cbox.xml
 ```
 * The resolution and sample size can be adjusted by changing the values of the xml files.
 * The rendered image can be found in the '**build**' folder under the name '**hw_4_3.exr**'!
